@@ -11,11 +11,12 @@ print(str(userAge) + " is so young!")
 '''
 
 
-#Create your own madlibda
+#Create your own madlib
 #have at least 5 inputs
 userName = input("Enter your name: ")
 userAge = input("Enter your age: ")
 userBrother = input("Enter another name: ")
-userAction = input("Enter an action in past tense: ")
-place = input("Enter your location: ")
-print(userAge + " years old teenager, " + userName + ", has " + userAction + " his brother, " + userBrother + ", after he told him a joke" + ", in the " + place + ". His brother is now horrible condition.") 
+userObject = input("Enter an object: ")
+location = input("enter a location: ")
+month = input("Enter a month: ")
+print("A " + userAge + " teenager called " + userName + " has been hitting "  + userBrother + " with a " + userObject + " since " + month + ". " + userBrother + " is now resting in a " + location) 
